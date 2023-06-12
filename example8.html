@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/" method="post">
+    <fieldset>
+      이름 : <input type="text" name="username" /><br />
+      아이디 : <input type="text" name="userid" /><br />
+      비밀번호 : <input type="password" name="userpw" /><br />
+      연락처 : <input type="number" maxlength="5" /> - <input type="number" /> - <input type="number" /><br />
+      사진 : <input type="file" /><br />
+      성별구분 : 
+      <label for="man">남</label>
+      <input type="radio" id="man" />
+      <label for="woman">여</label>
+      <input type="radio" id="woman" /><br />
+      사용언어 :
+      <label for="kor">한글</label>
+      <input type="checkbox" id="kor" checked />
+      <label for="eng">영어</label>
+      <input type="checkbox" id="eng" />
+      <label for="jap">일어</label>
+      <input type="checkbox" id="jap" />
+      <label for="chi">중국어</label>
+      <input type="checkbox" id="chi" /><br />
+      자기소개 : <textarea cols="30" rows="10"></textarea><br />
+      국적 : <select name="select" id="select" multiple><br />
+        
+      </select><br />
+      좋아하는 음식 : <br />
+      <input type="submit" value="제출" />
+    </fieldset>
+  </form>
+</body>
+</html>
